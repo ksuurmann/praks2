@@ -50,6 +50,21 @@ header {
 nav {
   padding: 7px 0;
 }
+.hamburger {
+  display: none;
+}
+.hamburger-icon {
+  width: 30px;
+  margin: 10px auto 0 auto;
+  cursor: pointer;
+  /*display: none*/
+}
+.line {
+  height: 4px;
+  width: 30px;
+  background-color: #ac8e68;
+  margin-bottom: 4px;
+}
 
 ul {
   padding-left: 0;
@@ -80,7 +95,10 @@ main {
 }
 
 /*---CONTACTS---*/
-
+iframe {
+  height: 450px;
+  width: 100%;
+}
 .contact-info {
   display: flex;
 }
