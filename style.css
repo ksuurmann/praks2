@@ -87,7 +87,6 @@ nav a {
   transition: color 0, 2s;
 }
 nav a:hover {
-  font-size: 25px;
   color: #554832;
 }
 main {

@@ -74,17 +74,33 @@
     transition: all 0.2s;
   }
   .hamburger:checked ~ .hamburger-icon .upper-line {
-    transform: rotate(45deg) translate(7px 6px);
+    transform: rotate(45deg) translate(7px, 6px);
   }
   .hamburger:checked ~ .hamburger-icon .middle-line {
     opacity: 0;
   }
   .hamburger:checked ~ .hamburger-icon .lower-line {
-    transform: rotate(-45deg) translate(5px -5px);
+    transform: rotate(-45deg) translate(5px, -5px);
   }
+  /*      
+  <input id="hamburger" type="checkbox" class="hamburger"/>
+    <label class="hamburger-icon" for="hamburger">
+        <div class="line upper-line"></div>
+        <div class="line middle-line"></div>
+        <div class="line lower-line"></div>
+    </label>
+*/
   /*FRONT PAGE*/
 
   .contact-info__right {
     width: 90%;
+  }
+
+  /*LOGISISSE*/
+  .andmed tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
   }
 }
