@@ -1,0 +1,135 @@
+/* --- GLOBAL ---*/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: oldlace;
+}
+main {
+  margin-bottom: 70px;
+}
+/* --- GLOBAL ---*/
+/*---HEADER---*/
+header {
+  margin-bottom: 70px;
+}
+
+.logo-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+}
+#logo {
+  margin: 0;
+  padding-left: 60px;
+  font-weight: bold;
+  font-size: 22px;
+}
+#searchbox {
+  margin-right: 60px;
+}
+.header-image {
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0.1)),
+    url("moor.jpg");
+  background-position: 50% 85%;
+  background-size: cover;
+}
+
+nav {
+  padding: 7px 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+
+ul li {
+  padding: 10px 0;
+}
+/*---NAV---*/
+
+nav a {
+  text-decoration: none;
+  color: #ac8e68;
+  font-weight: bold;
+  transition: color 0, 2s;
+}
+nav a:hover {
+  font-size: 25px;
+  color: #554832;
+}
+main {
+  margin-bottom: 70px;
+}
+
+/*---CONTACTS---*/
+
+.contact-info {
+  display: flex;
+}
+
+.contact-info__left,
+.contact-info__right {
+  width: 50%;
+}
+
+table {
+  margin: 0 auto;
+  line-height: 160%;
+}
+
+.contact-info__left table tr td:first-child {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 5px;
+}
+
+/*----GALLERY---*/
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery .image-wrapper {
+  flex-basis: 28%;
+  margin-left: 4%;
+  margin-bottom: 40px;
+}
+.gallery img {
+  object-fit: cover;
+  width: 100%;
+}
+
+/*---LOGIN---*/
+
+.sisenemine {
+  text-align: right;
+  margin-bottom: 100px;
+}
+
+.andmed table tr td:last-child {
+  padding: 5px;
+}
+li {
+  list-style: none;
+}
+/*---FOOTER---*/
+footer p {
+  text-align: center;
+}
