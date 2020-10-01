@@ -57,7 +57,7 @@ nav {
   width: 30px;
   margin: 10px auto 0 auto;
   cursor: pointer;
-  /*display: none*/
+  display: none;
 }
 .line {
   height: 4px;
